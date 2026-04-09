@@ -1,0 +1,82 @@
+/* ---------------------------------------------------
+   Set the main VitePress brand color variables.
+   These affect built-in theme elements that use
+   the brand color, such as accents and button styling.
+--------------------------------------------------- */
+:root {
+  /* Main brand color */
+  --vp-c-brand-1: #13b38e;
+
+  /* Slight variation of brand color, kept the same here
+     so the green stays consistent across the site */
+  --vp-c-brand-2: #13b38e;
+
+  /* Another brand shade variable, also kept the same
+     for a uniform green theme */
+  --vp-c-brand-3: #13b38e;
+}
+
+/* ---------------------------------------------------
+   Style the main homepage action button
+   (the green "Product description" button).
+--------------------------------------------------- */
+.VPButton.brand {
+  /* Set the background of the main button to green */
+  background-color: #13b38e !important;
+
+  /* Make the border the same green color */
+  border-color: #13b38e !important;
+
+  /* Make the button text white for readability */
+  color: white !important;
+}
+
+/* ---------------------------------------------------
+   Style the main button when the mouse hovers over it.
+   We keep the same green color and slightly reduce
+   opacity so it has a subtle hover effect.
+--------------------------------------------------- */
+.VPButton.brand:hover {
+  /* Keep the same green background on hover */
+  background-color: #13b38e !important;
+
+  /* Keep the same green border on hover */
+  border-color: #13b38e !important;
+
+  /* Keep the text white */
+  color: white !important;
+
+  /* Slight transparency for a soft hover effect */
+  opacity: 0.92;
+}
+
+/* ---------------------------------------------------
+   Style the secondary homepage action button
+   (the grey "Reference" button in normal state).
+--------------------------------------------------- */
+.VPButton.alt {
+  /* Set a light grey background */
+  background-color: #e5e7eb !important;
+
+  /* Add a slightly darker grey border */
+  border-color: #d1d5db !important;
+
+  /* Use dark text so it is easy to read */
+  color: #111827 !important;
+}
+
+/* ---------------------------------------------------
+   Style the secondary button when hovered.
+   This changes it from grey to pink to match
+   the assignment requirement.
+--------------------------------------------------- */
+.VPButton.alt:hover {
+  /* Change the background to pink on hover */
+  background-color: #ee9bdd !important;
+
+  /* Change the border to the same pink */
+  border-color: #ee9bdd !important;
+
+  /* Keep dark text for contrast and readability */
+  color: #111827 !important;
+}
