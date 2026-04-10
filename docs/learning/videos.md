@@ -33,5 +33,3 @@ New videos are added every two weeks. Subscribe to the PaperBeam channel to get 
 - Best practices for structured content
 - How to invite and manage team members
 - Publishing workflows from draft to live
-
-<!-- this page provides video tutorial resources for PaperBeam users -->

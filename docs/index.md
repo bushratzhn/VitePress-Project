@@ -19,13 +19,13 @@ hero:
 features:
   - icon: 🦜
     title: Adaptive Columns
-    details: Dynamically adjust column count and widths for different types of content.
+    details: Dynamically adjust column count and widths based on screen size or content type
 
   - icon: 🍓
     title: Editorial Curation
-    details: Seamlessly merge media and text into one clean publishing workflow.
+    details: Seamlessly merge media and text that emphasize readability and design
 
   - icon: 🇦🇺
     title: User Driven Community
-    details: Used in over 60 countries worldwide.
+    details: Used in over 60 countries worldwide
 ---

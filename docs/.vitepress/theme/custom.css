@@ -3,7 +3,7 @@
   --vp-c-brand-2: #13b38e;
   --vp-c-brand-3: #13b38e;
   --vp-home-hero-name-color: transparent;
-  --vp-home-hero-name-background: linear-gradient(90deg, #13b38e 0%, #cc3aaf 100%);
+  --vp-home-hero-name-background: linear-gradient(90deg, #13b38e 0%, #13b38e 29%, #cc3aaf 37%, #cc3aaf 100%);
 }
 
 /* Main green button */
@@ -37,16 +37,26 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: visible !important;
+}
+
+.VPHero .image-container {
+  background: none !important;
+  border: none !important;
+  overflow: visible !important;
 }
 
 /* Big hero image */
 .VPHero .image-src {
-  max-width: 350px !important;
+  max-width: 300px !important;
+  width: 300px !important;
+  mix-blend-mode: multiply;
   border-radius: 0 !important;
-  box-shadow:
-    -45px 20px 90px rgba(19, 179, 142, 0.40),
-     45px 35px 95px rgba(217, 75, 184, 0.75);
+  filter:
+    drop-shadow(-15px -100px 70px rgba(19, 179, 142, 0.35))
+    drop-shadow(40px 50px 80px rgba(200, 75, 184, 0.45));
 }
+
 
 /* Larger hero text */
 .VPHero .name {
@@ -88,4 +98,26 @@
 /* Keep content width nice on doc pages */
 .VPDoc.has-sidebar .content-container {
   max-width: 900px;
+}
+/* Light mode code blocks */
+:root:not(.dark) .vp-code,
+:root:not(.dark) div[class*="language-"] {
+  background-color: #f6f6f7 !important;
+}
+
+:root:not(.dark) div[class*="language-"] code {
+  color: #393a34 !important;
+}
+
+:root:not(.dark) div[class*="language-"] .token.comment {
+  color: #758575 !important;
+}
+
+:root:not(.dark) div[class*="language-"] .token.keyword,
+:root:not(.dark) div[class*="language-"] .token.function {
+  color: #1c6b48 !important;
+}
+
+:root:not(.dark) div[class*="language-"] .token.string {
+  color: #b56959 !important;
 }

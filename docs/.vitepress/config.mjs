@@ -16,7 +16,8 @@ export default defineConfig({
         items: [
           { text: 'Documentation', link: '/learning/docs' },
           { text: 'Cheatsheets', link: '/learning/cheatsheets' },
-          { text: 'Blog', link: '/learning/blog' }
+          { text: 'Blog', link: '/learning/blog' },
+          { text: 'Videos', link: '/learning/videos' }
         ]
       },
       { text: 'Contact', link: '/contact' }
