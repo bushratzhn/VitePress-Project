@@ -96,8 +96,6 @@ docs/
 ```bash
 npm install      # Install dependencies
 npm run dev      # Start local dev server
-npm run build    # Build for production
-npm run serve    # Preview production build
 ```
 
 Local dev runs at: `http://localhost:5173`
