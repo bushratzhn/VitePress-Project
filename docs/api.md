@@ -1,9 +1,11 @@
 # API
 
-## API Overview
+## API Overview 📡
+
 The PaperBeam API allows developers to access documents, publish content, and manage project data.
 
-## Example Endpoints
+
+## Example Endpoints 📋
 
 | Method | Route | Purpose |
 |--------|-------|---------|
@@ -32,3 +34,5 @@ fetch('/api/documents')
 ::: tip
 You can use the API to automate content publishing and team workflows.
 :::
+
+

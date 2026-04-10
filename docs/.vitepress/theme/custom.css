@@ -1,10 +1,23 @@
+/* =============================================
+   BRAND COLORS
+   Sets the global brand color used throughout
+   VitePress for links, active states, and accents
+   ============================================= */
+
 :root {
-  --vp-c-brand-1: #13b38e;
-  --vp-c-brand-2: #13b38e;
-  --vp-c-brand-3: #13b38e;
-  --vp-home-hero-name-color: transparent;
+  --vp-c-brand-1: #13b38e;   /* primary brand green */
+  --vp-c-brand-2: #13b38e;   /* hover/active state green */
+  --vp-c-brand-3: #13b38e;   /* subtle/muted brand green */
+  --vp-home-hero-name-color: transparent;  /* makes hero name transparent so gradient shows through */
   --vp-home-hero-name-background: linear-gradient(90deg, #13b38e 0%, #13b38e 29%, #cc3aaf 37%, #cc3aaf 100%);
+  /* gradient goes from solid green (0-29%) to solid pink (37-100%) with a short blend in between */
 }
+
+
+/* =============================================
+   ACTION BUTTONS
+   Styles the two hero buttons on the homepage
+   ============================================= */
 
 /* Main green button */
 .VPButton.brand {
@@ -13,25 +26,33 @@
   color: white !important;
 }
 
-/* Secondary grey button */
+/* Secondary grey button - for Reference*/
 .VPButton.alt {
   background-color: #e9e9ee !important;
   border-color: #e9e9ee !important;
   color: #4a4a57 !important;
 }
 
-/* Secondary hover pink */
+/* Secondary button turns pink when hovered */
 .VPButton.alt:hover {
   background-color: #ee9bdd !important;
   border-color: #ee9bdd !important;
   color: white !important;
 }
 
-/* Homepage hero layout */
+
+/* =============================================
+   HERO LAYOUT
+   Controls the layout of the homepage hero section
+   ============================================= */
+
+/* Vertically centers hero content and image */
 .VPHero .container {
   align-items: center;
 }
 
+/* Makes image column flexible and centered */
+/* overflow: visible allows the glow to bleed outside the container */
 .VPHero .image {
   flex: 1;
   display: flex;
@@ -40,31 +61,42 @@
   overflow: visible !important;
 }
 
+/* Removes default background and border from image wrapper */
+/* overflow: visible ensures drop-shadow is not clipped */
 .VPHero .image-container {
   background: none !important;
   border: none !important;
   overflow: visible !important;
 }
 
-/* Big hero image */
+/* =============================================
+   HERO IMAGE
+   Styles the PaperBeam logo in the hero section
+   ============================================= */
 .VPHero .image-src {
-  max-width: 300px !important;
-  width: 300px !important;
-  mix-blend-mode: multiply;
-  border-radius: 0 !important;
+  max-width: 315px !important;
+  width: 315px !important;
+  mix-blend-mode: multiply;         /* blends grey background of image with the page background */
+  border-radius: 0 !important;      /* removes any default rounding */
   filter:
-    drop-shadow(-15px -100px 70px rgba(19, 179, 142, 0.35))
-    drop-shadow(40px 50px 80px rgba(200, 75, 184, 0.45));
+    drop-shadow(-15px -140px 90px rgba(19, 179, 142, 0.35))       /* green glow above the logo */
+    drop-shadow(40px 50px 80px rgba(200, 75, 184, 0.55));         /* pink glow below-right of the logo */
 }
 
 
-/* Larger hero text */
+/* =============================================
+   HERO TEXT SIZES
+   Overrides default VitePress hero font sizes
+   ============================================= */
+ 
+/* Main title - "PaperBeam" */
 .VPHero .name {
   font-size: 64px !important;
   line-height: 1.05 !important;
   font-weight: 800 !important;
 }
 
+/* Subtitle - "Now with Flextext" */
 .VPHero .text {
   font-size: 54px !important;
   line-height: 1.05 !important;
@@ -73,6 +105,7 @@
   color: var(--vp-c-text-1) !important;   /* was: #3f3f46 */
 }
 
+/* Tagline - "Elevate Your Content Flow" */
 .VPHero .tagline {
   font-size: 20px !important;
   /*color: #6b7280 !important;*/
@@ -80,13 +113,21 @@
   margin-top: 14px;
 }
 
-/* Feature cards */
+/* =============================================
+   FEATURE CARDS
+   Styles the three feature cards below the hero
+   ============================================= */
+
+/* Card container - removes border, applies soft background and rounded corners */
 .VPFeature {
   border: none !important;
   /*background: #f7f7fa !important;*/
   background: var(--vp-c-bg-soft) !important;   /* was: #f7f7fa */
   border-radius: 18px !important;
 }
+
+
+/* Icon box inside each card */
 
 .VPFeature .icon {
   /*background: #efeff4 !important;*/
@@ -95,29 +136,66 @@
   padding: 10px !important;
 }
 
-/* Keep content width nice on doc pages */
+/* =============================================
+   DOC PAGE WIDTH
+   Limits content width on pages with a sidebar
+   for better readability
+   ============================================= */
+
 .VPDoc.has-sidebar .content-container {
   max-width: 900px;
 }
-/* Light mode code blocks */
+
+/* =============================================
+   LIGHT MODE CODE BLOCKS
+   Overrides dark code block styles in light mode
+   Dark mode code blocks are left unchanged
+   ============================================= */
+
+/* Light background for code block containers */
+
 :root:not(.dark) .vp-code,
 :root:not(.dark) div[class*="language-"] {
   background-color: #f6f6f7 !important;
 }
 
+/* Default code text color in light mode */
 :root:not(.dark) div[class*="language-"] code {
   color: #393a34 !important;
 }
 
+/* Comment token color - muted grey-green */
 :root:not(.dark) div[class*="language-"] .token.comment {
   color: #758575 !important;
 }
+
+/* Keyword and function token color - dark green */
 
 :root:not(.dark) div[class*="language-"] .token.keyword,
 :root:not(.dark) div[class*="language-"] .token.function {
   color: #1c6b48 !important;
 }
 
+
+/* String token color - muted red-brown */
 :root:not(.dark) div[class*="language-"] .token.string {
   color: #b56959 !important;
+}
+
+/* Dark mode hero text and button adjustments */
+.dark .VPHero .text {
+  color: #a1a1aa !important;
+}
+
+.dark .VPButton.alt {
+  background-color: #3a3a3f !important;
+  border-color: #3a3a3f !important;
+  color: #a1a1aa !important;
+}
+
+/*Dark mode hover adjustment to see pink*/
+.dark .VPButton.alt:hover {
+  background-color: #ee9bdd !important;
+  border-color: #ee9bdd !important;
+  color: white !important;
 }

@@ -1,14 +1,14 @@
-# Products
+# Products 🚀
 
-## Overview
+## Overview 📝
 PaperBeam is a fictional web publishing platform designed for teams who want to organize, write, and share content efficiently.
 
-## Core Features
+## Core Features ⚡
 - Flexible content layouts
 - Fast editing workflow
 - Shared publishing tools
 
-## Plan Comparison
+## Plan Comparison 📊
 
 | Plan | Best For | Main Benefit |
 |------|----------|--------------|

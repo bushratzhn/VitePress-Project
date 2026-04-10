@@ -12,7 +12,7 @@ When a team shares a workspace, consistency becomes critical. Structured tools e
 - **Easier publishing** — fewer steps from draft to live
 - **Faster onboarding** — new team members ramp up quickly
 
-## Common Writing Mistakes to Avoid
+## Common Writing Mistakes to Avoid ⚠️
 
 | Mistake | Better Approach |
 |---------|----------------|

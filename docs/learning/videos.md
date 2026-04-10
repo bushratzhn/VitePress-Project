@@ -1,4 +1,4 @@
-# Videos
+# Videos  🎥
 
 ## Video Tutorials 🎬
 Learn how to use PaperBeam through step-by-step video guides designed for all skill levels.
@@ -11,7 +11,7 @@ Learn how to use PaperBeam through step-by-step video guides designed for all sk
 | 02 | Creating your first page | 8 min |
 | 03 | Publishing and sharing content | 6 min |
 
-## Advanced Topics
+## Advanced Topics 🔥
 
 | Episode | Topic | Duration |
 |---------|-------|----------|
@@ -27,9 +27,12 @@ All videos are available in HD. You can slow down or speed up playback using you
 New videos are added every two weeks. Subscribe to the PaperBeam channel to get notified.
 :::
 
-## What You Will Learn
+## What You Will Learn 📚
 
 - How to navigate the PaperBeam editor
 - Best practices for structured content
 - How to invite and manage team members
 - Publishing workflows from draft to live
+
+<!-- Videos page: lists video tutorial series for PaperBeam users, organized into getting started and advanced topics -->
+

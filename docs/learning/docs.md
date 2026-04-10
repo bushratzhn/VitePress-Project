@@ -1,9 +1,10 @@
-# Documentation
+# Documentation 📖
 
-## Getting Started
+
+## Getting Started 🚀
 PaperBeam helps teams organize structured content for publishing and collaboration across projects of any size.
 
-## Setup Steps
+## Setup Steps 🛠️
 1. Create your workspace
 2. Invite your team members
 3. Add your content pages
@@ -27,7 +28,7 @@ Documentation pages are useful for onboarding new users and explaining workflows
 You can export any documentation page as a PDF directly from the workspace settings panel.
 :::
 
-## Best Practices
+## Best Practices ✅
 
 - Keep page titles short and descriptive
 - Use headings to break up long content

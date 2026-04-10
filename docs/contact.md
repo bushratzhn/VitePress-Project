@@ -3,12 +3,12 @@
 ## Get in Touch 📩
 PaperBeam offers multiple ways for users to ask questions and get support.
 
-## Contact Options
+## Contact Options 💬
 - Email support
 - Live chat
 - Community forum
 
-## Support Hours
+## Support Hours 🕐
 1. Monday to Friday
 2. 9:00 AM to 5:00 PM
 3. Online response within 24 hours

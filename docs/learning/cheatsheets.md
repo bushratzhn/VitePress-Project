@@ -1,9 +1,9 @@
-# Cheatsheets
+# Cheatsheets📋
 
-## Quick Reference ✨
+## Quick Reference✨
 A fast lookup guide for the most common PaperBeam tasks and keyboard shortcuts.
 
-## Common Tasks
+## Common Tasks⚡
 
 | Task | Action |
 |------|--------|
@@ -13,7 +13,7 @@ A fast lookup guide for the most common PaperBeam tasks and keyboard shortcuts.
 | Build for production | Run `npm run docs:build` |
 | Add to sidebar | Update `config.ts` sidebar section |
 
-## Markdown Essentials
+## Markdown Essentials📝
 
 | Element | Syntax |
 |---------|--------|
